@@ -49,7 +49,3 @@ FROM country_stats
 -- Group and order by year in descending order
 GROUP BY year
 ORDER BY year DESC;
-
-
-
-
