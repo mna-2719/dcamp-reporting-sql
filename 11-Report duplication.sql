@@ -117,6 +117,3 @@ GROUP BY c.country, pop_in_millions
 -- Keep only the top 25 medals_per_million rows
 ORDER BY medals_per_million DESC
 LIMIT 25;
-
-
-
