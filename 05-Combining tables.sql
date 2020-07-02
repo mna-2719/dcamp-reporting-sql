@@ -46,6 +46,3 @@ ON subquery.country_id = c.id
 GROUP BY season, country
 -- Order to show most events at the top
 ORDER BY season;
-
-
-
