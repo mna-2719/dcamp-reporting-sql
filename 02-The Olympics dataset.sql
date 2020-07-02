@@ -27,6 +27,3 @@ FROM winter_games
 GROUP BY sport
 -- Show the most events at the top of the report
 ORDER BY events ASC;
-
-
-
