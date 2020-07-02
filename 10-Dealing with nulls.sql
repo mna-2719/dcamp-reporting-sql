@@ -75,6 +75,3 @@ FROM summer_games
 GROUP BY athlete_id
 -- Order by total_events descending and athlete_id ascending
 ORDER BY total_events DESC, athlete_id;
-
-
-
