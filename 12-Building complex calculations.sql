@@ -101,6 +101,3 @@ FROM
     GROUP BY region, athlete_name) AS subquery
 -- Filter for only the top athlete per region
 WHERE row_num = 1;
-
-
-
