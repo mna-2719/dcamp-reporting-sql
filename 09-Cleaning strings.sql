@@ -81,6 +81,3 @@ SELECT
 FROM summer_games_messy
 -- Update the group by accordingly
 GROUP BY event_fixed;
-
-
-
