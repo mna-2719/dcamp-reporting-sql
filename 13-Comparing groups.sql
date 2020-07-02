@@ -124,6 +124,3 @@ WHERE year = '2016-01-01' AND gdp IS NOT NULL
 GROUP BY region, country
 -- Show highest gdp_per_million at the top
 ORDER BY gdp_per_million DESC;
-
-
-
