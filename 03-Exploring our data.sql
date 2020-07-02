@@ -73,6 +73,3 @@ GROUP BY a.name
 HAVING SUM (gold) >= 3
 -- Sort to show the most gold medals at the top
 ORDER BY gold_medals;
-
-
-
