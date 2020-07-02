@@ -26,7 +26,7 @@ ORDER BY sport, athletes DESC;
 
 
 -- Query from last exercise shown below.  Comment it out.
-/*SELECT 
+SELECT 
 	sport,
     CASE WHEN weight/height^2*100 <.25 THEN '<.25'
     WHEN weight/height^2*100 <=.30 THEN '.25-.30'
@@ -36,7 +36,7 @@ FROM summer_games AS s
 JOIN athletes AS a
 ON s.athlete_id = a.id
 GROUP BY sport, bmi_bucket
-ORDER BY sport, athletes DESC;*/
+ORDER BY sport, athletes DESC;
 
 -- Show height, weight, and bmi for all athletes
 SELECT 
