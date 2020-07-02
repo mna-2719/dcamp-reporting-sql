@@ -70,6 +70,3 @@ ORDER BY sport, athletes DESC;
     weight/height^2*100 AS bmi
 FROM athletes
 WHERE weight/height^2*100 IS NULL;*/
-
-
-
