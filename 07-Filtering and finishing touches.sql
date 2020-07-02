@@ -89,6 +89,3 @@ GROUP BY event
 -- Order and limit the final output
 ORDER BY athletes DESC
 LIMIT 10;
-
-
-
