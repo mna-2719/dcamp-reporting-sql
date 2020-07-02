@@ -12,7 +12,7 @@ SELECT AVG(CAST(pop_in_millions AS float)) AS avg_population
 FROM country_stats;
 
 -- Uncomment the following block & run the query
-/*SELECT 
+SELECT 
 	s.country_id, 
     COUNT(DISTINCT s.athlete_id) AS summer_athletes, 
     COUNT(DISTINCT w.athlete_id) AS winter_athletes
@@ -20,12 +20,12 @@ FROM summer_games AS s
 JOIN winter_games_str AS w
 -- Fix the error by making both columns integers
 ON s.country_id = w.country_id
-GROUP BY s.country_id;*/
+GROUP BY s.country_id;
 
 
 -- Comment out the previous query
-/*SELECT AVG(CAST(pop_in_millions AS float)) AS avg_population
-FROM country_stats;*/
+/* SELECT AVG(CAST(pop_in_millions AS float)) AS avg_population
+FROM country_stats; */
 
 -- Uncomment the following block & run the query
 SELECT 
