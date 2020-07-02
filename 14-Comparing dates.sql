@@ -129,6 +129,3 @@ ON cs.country_id = c.id
 -- Only include the tallest height for each country
 WHERE row_num = 1
 GROUP BY region;
-
-
-
