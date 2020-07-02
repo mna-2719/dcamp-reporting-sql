@@ -64,9 +64,9 @@ GROUP BY sport, bmi_bucket
 ORDER BY sport, athletes DESC;
 
 -- Comment out the troubleshooting query
-SELECT 
+/* SELECT 
 	height, 
     weight, 
     weight/height^2*100 AS bmi
 FROM athletes
-WHERE weight/height^2*100 IS NULL;
+WHERE weight/height^2*100 IS NULL; */
